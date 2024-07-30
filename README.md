@@ -23,7 +23,7 @@ Following example was created using Hugging Face page of the official repository
 [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/PAIR/Text2Video-Zero)
 
 <p>
-<img src="examples/gif/text2video_HuggingFace.gif" raw=true style="width:15%; height:15%">
+<img src="examples/gif/text2video_HuggingFace.gif" raw=true style="width:40%; height:40%">
 </p>
 
 ## What I learned using this text-to-video method?
