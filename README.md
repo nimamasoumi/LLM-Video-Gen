@@ -1,7 +1,7 @@
 # Video Generation using Large Language Models (LLMs)
 Do you enjoy running text-to-video generation codes on Google Colab as much as I do? 
 
-Try [this Notebook](https://github.com/nimamasoumi/blob/main/llm-video-gen.ipynb) in Colab and explore the enabling possibilities.
+Try [this Notebook](https://github.com/nimamasoumi/LLM-Video-Gen/blob/main/llm-video-gen.ipynb) in Colab and explore the enabling possibilities.
 
 Well, this repository provides a Jupyter Notebook and inference files of [Text2Video-Zero](https://arxiv.org/abs/2303.13439) runnable on Google Colab.
 
