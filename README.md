@@ -1,3 +1,7 @@
+<a target="_blank" href="https://colab.research.google.com/github/nimamasoumi/LLM-Video-Gen/blob/main/llm-video-gen.ipynb">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
+
 # Video Generation using Large Language Models
 Do you enjoy running text-to-video generation codes on Google Colab as much as I do? 
 
