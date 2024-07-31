@@ -1,9 +1,9 @@
-# Video Generation using Large Language Models (LLMs)
+# Video Generation using Large Language Models
 Do you enjoy running text-to-video generation codes on Google Colab as much as I do? 
 
 Try [this Notebook](https://github.com/nimamasoumi/LLM-Video-Gen/blob/main/llm-video-gen.ipynb) in Colab and explore the enabling possibilities.
 
-Well, this repository provides a Jupyter Notebook and inference files of [Text2Video-Zero](https://arxiv.org/abs/2303.13439) runnable on Google Colab.
+This repository provides a Jupyter Notebook and inference files of [Text2Video-Zero](https://arxiv.org/abs/2303.13439) which are runnable on Google Colab.
 
 The official sources codes are provided in the [Text2Video GitHub](https://github.com/Picsart-AI-Research/Text2Video-Zero). 
 
@@ -28,7 +28,7 @@ Following example was created using Hugging Face page of the official repository
 
 ## What I learned using this text-to-video method?
 <ol>
-<li>The method generates certain poses better than other e.g. horse galloping or running toward the camera angle.</li>
+<li>The certain poses are better illustrated e.g. horse galloping or running toward the camera angle.</li>
 <li>The generation of complex poses usually fail e.g. an animal slowly turns the head from left to right.</li>
 <li>Generated videos of human are not realistic e.g. I tried Elon Musk and it did not go well. </li>
 <li>Results are usually a close-up and focused to the described subjects, and the background is missing. </li>
