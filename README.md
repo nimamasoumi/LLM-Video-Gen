@@ -32,11 +32,11 @@ Following example was created using Hugging Face page of the official repository
 
 ## What I learned using this text-to-video method?
 <ol>
-<li>The certain poses are better illustrated e.g. horse galloping or running toward the camera angle.</li>
+<li>The certain poses are better illustrated e.g. horse galloping or moving animals toward the camera.</li>
 <li>The generation of complex poses usually fail e.g. an animal slowly turns the head from left to right.</li>
 <li>Generated videos of human are not realistic e.g. I tried Elon Musk and it did not go well. </li>
 <li>Results are usually a close-up and focused to the described subjects, and the background is missing. </li>
 <li>The videos containing flows of water can be very similar to an animated paining.</li>
-<li>In general, the videos are like animated paining, regardless of the generation prompt. </li>
+<li>In general, the videos are like animated painting, regardless of the generation prompt. </li>
 </ol>
 
