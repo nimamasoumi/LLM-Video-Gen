@@ -35,8 +35,8 @@ Following example was created using Hugging Face page of the official repository
 <li>Certain poses are better illustrated e.g. horse galloping or moving animals toward the camera.</li>
 <li>The generation of complex poses usually fails, e.g. an animal slowly turns the head from left to right.</li>
 <li>Generated videos of humans are not realistic, e.g. I tried Elon Musk and it did not go well. </li>
-<li>Results are usually a close-up and focused to the described subjects, and the background is missing. </li>
-<li>The videos containing flows of water can be very similar to an animated paining.</li>
-<li>In general, the videos are like animated painting, regardless of the generation prompt. </li>
+<li>Results are usually a close-up focused on the described subjects, and the background is missing. </li>
+<li>The videos containing water flows can be very similar to an animated painting.</li>
+<li>The videos are like animated paintings, regardless of the generation prompt. </li>
 </ol>
 
