@@ -14,3 +14,7 @@ prompt = args.prompt
 motion_path = '__assets__/canny_videos_mp4/fox.mp4'
 out_path = f"./text2video_pose_guidance_{prompt.replace(' ','_')}.mp4"
 model.process_controlnet_pose(motion_path, prompt=prompt, chunk_size=args.chunk_size, save_path=out_path, watermark=None)
+
+with open('out_poseControl.txt', 'w') as out:
+  out.write(out_path)
+  out.close()

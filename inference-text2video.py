@@ -11,6 +11,10 @@ args = parser.parse_args()
 # Text to Video
 model = Model(device="cuda", dtype=torch.float16)
 prompt = args.prompt
-params = {"t0": 44, "t1": 47 , "motion_field_strength_x" : 12, "motion_field_strength_y" : 12, "video_length": 32, "chunk_size": args.chunk_size}
+params = {"t0": 44, "t1": 47 , "motion_field_strength_x" : 12, "motion_field_strength_y" : 12, "video_length": 16, "chunk_size": args.chunk_size}
 out_path, fps = f"./text2video_{prompt.replace(' ','_')}.mp4", 8
 model.process_text2video(prompt, fps = fps, path = out_path, watermark=None, **params)
+
+with open('out_textToVideo.txt', 'w') as out:
+  out.write(out_path)
+  out.close()

@@ -14,3 +14,7 @@ prompt = args.prompt
 video_path = '__assets__/canny_videos_mp4/fox.mp4'
 out_path = f'./text2video_depth_control_{prompt}.mp4'
 model.process_controlnet_depth(video_path, prompt=prompt, chunk_size=args.chunk_size, save_path=out_path, watermark=None)
+
+with open('out_depthControl.txt', 'w') as out:
+  out.write(out_path)
+  out.close()
